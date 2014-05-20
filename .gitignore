@@ -1,1 +1,17 @@
+.gradle/
+.idea/
+build/
+out/
+classes/
+/*.iml
+/*.ipr
+/*.iws
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+user.gradle
+logs/
+/*.ids
+*.log
 /bin
+/target
