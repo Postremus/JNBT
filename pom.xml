@@ -9,8 +9,14 @@
 
     <ciManagement>
         <system>Jenkins</system>
-        <url>http://ci.turt2live.com</url>
+        <url>http://web.crafteddimensions.eu:9090/</url>
     </ciManagement>
+
+	<parent>
+		<groupId>de.pro_crafting</groupId>
+		<artifactId>Core</artifactId>
+		<version>0.1.0-SNAPSHOT</version>
+	</parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -76,11 +82,4 @@
     </build>
 
     <!-- DISTRIBUTION MANAGEMENT -->
-
-    <distributionManagement>
-        <repository>
-            <id>turt2live-ftp</id>
-            <url>ftp://ftp.turt2live.com/public_html/maven2</url>
-        </repository>
-    </distributionManagement>
 </project>
